@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Homepage</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="toggle-body">
+        <div class="toggle-menu">
+            <button id="toggle-close" onclick="toggleMenuOff()"><img src="assets/images/icon-menu-close.svg" alt=""></button>
+            <ul class="toggle-list">
+                <li class="toggle-item">Home</li>
+                <li class="toggle-item">New</li>
+                <li class="toggle-item">Popular</li>
+                <li class="toggle-item">Trending</li>
+                <li class="toggle-item">Categories</li>
+            </ul>
+        </div>
+    </div>
+    <div id="navbar-section">
+        <div id="logo"><img src="assets/images/logo.svg" alt="Logo"></div>
+        <ul id="navbar">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">New</li>
+            <li class="nav-item">Popular</li>
+            <li class="nav-item">Trending</li>
+            <li class="nav-item">Categories</li>
+        </ul>
+        <button id="toogle-btn" onclick="toggleMenuOn()"><img src="assets/images/icon-menu.svg" alt=""></button>
+
+    </div>
+    <div id="news-section">
+        <div id="main-img"></div>
+        <div id="main-heading">The Bright<br> Future of<br> Web 3.0?</div>
+        <div id="main-description">
+            <div id="description">We dive into the next evolution of the web that claims to put the power of the
+                platforms back into the hands of the people. But is it really fulfilling its promise?</div>
+            <button id="read">Read More</button>
+        </div>
+        <div class="news-block" id="block1">
+            <div id="block1-tag">New</div>
+            <div class="block-head">Hydrogen VS Electric Cars</div>
+            <div class="block-des">Will hydrogen-fueled cars ever catch up to EVs?</div>
+        </div>
+        <div class="news-block" id="block2">
+            <div class="block-head">The Downsides of AI Artistry</div>
+            <div class="block-des">What are the possible adverse effects of on-demand AI image generation?</div>
+        </div>
+        <div class="news-block" id="block3">
+            <div class="block-head">Is VC Funding Drying Up?</div>
+            <div class="block-des">Private funding by VC firms is down 50% YOY. We take a look at what that means.</div>
+        </div>
+
+        <div class="sub-news" id="sub1">
+            <div class="sub-img"><img src="assets/images/image-retro-pcs.jpg" alt="sub-images"></div>
+            <div class="sub-detail">
+                <div class="sub-id">01</div>
+                <div class="sub-head">Reviving Retro PCs</div>
+                <div class="sub-des">What happens when old PCs are given modern upgrades?</div>
+            </div>
+        </div>
+
+        <div class="sub-news" id="sub2">
+            <div class="sub-img"><img src="assets/images/image-top-laptops.jpg" alt="sub-images"></div>
+            <div class="sub-detail">
+                <div class="sub-id">02</div>
+                <div class="sub-head">Top 10 Laptops of 2022</div>
+                <div class="sub-des">Our best picks for various needs and budgets.</div>
+            </div>
+        </div>
+
+        <div class="sub-news" id="sub3">
+            <div class="sub-img"><img src="assets/images/image-gaming-growth.jpg" alt="sub-images"></div>
+            <div class="sub-detail">
+                <div class="sub-id">03</div>
+                <div class="sub-head">The Growth of Gaming</div>
+                <div class="sub-des">How the pandemic has sparked fresh opportunities.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
